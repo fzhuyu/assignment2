@@ -1,0 +1,119 @@
+--------------------------------1------------------------------
+
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        docs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+--------------------------------2------------------------------
+
+There has been 8 commits done, 6 by Esteban Parra and 2 by fzhuyu (Fernando Zhu Yu).
+command used: "git shortlog -s"
+
+--------------------------------3------------------------------
+
+It was modified last on: "Thu Oct 8 01:34:05 2020 -0500" by fzhuyu.
+The command used was: git log -1 README.md
+
+--------------------------------4------------------------------
+
+Branches are used in Git repositories because 1. it allows the programmers to work on 
+different ideas, bug fix, implement features without interfering with each other. 2. On
+the same idea, it also allows the programmer to publish a stable version while working 
+on a newer version.
+
+--------------------------------5------------------------------
+
+Git log shows the comits made, whereas Git status shows the current working directory and
+staging area, it will not show any information about the project history (commits)
+
+--------------------------------6------------------------------
+
+git log Vehicle.cpp
+
+--------------------------------7------------------------------
+
+git log --grep="file"
+
+--------------------------------8------------------------------
+
+Inheritance is when a child class has all the properties from the parent class, and then
+is allowed to add new functions while also using the parent's functions. Inheritance has
+a "IS-A" relationship from child to parent. 
+
+The word polymorphism means many forms. This means that a parent class can have many forms.
+This parent class can have several children classes that can use the same functions from the
+parent class in different ways. Such as: a parent class "animal" can have the forms of "cat",
+"dog", "platypus", and they all can use the "animalSound()" from the parent class in their
+own way.
+
+Encapsulation refers to data hiding through classes and functions. The purpose of encapsulation 
+is to prevent the user from accessing information unless given the tools to (functions).
+Encapsulation will hide the information by setting the data in private. Then, allow the user
+to access this information with getter functions and change this data with setter functions.
+
+
+--------------------------------9------------------------------
+
+The Dictator and Lieutenants workflow is when the Lieutenants work on different parts of the
+repository. The dicator will then merge the lieutenant's branch with their own branch and
+then push it to the repository. The Lieutenants will then rebase from the repository.
+
+The Integration manager workflow is when the maintainer pushes their public repository so
+that contributors can clone it and work on it. The contributor will then push their cloned copy.
+The maintainer can then merge the cloned copy with the main repository and then push the repository.
+
+The main difference is that in the Dicator and Lieutenants workflow, the Lieutenants work on
+different branches of the same repository, while the Dictator merge the branches. Whereas in the 
+Integration manager workflow, each contributor have their own copy of the repository and work
+on different parts at different paces, if a contribution is stable, then the manager merges
+their work and pushes it publicly.
+
+--------------------------------10------------------------------
+
+The Dictator and Lieutenant workflow will be more beneficial to 100 developers working at the
+same time because it allows them to work on different branches and allow only the Dictator to
+push to the main repository. This avoids the conflicts that the Centralized workflow would have
+where if many developers want to push, only one will be allowed and the rest must fetch and merge
+before pushing to the repository.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
